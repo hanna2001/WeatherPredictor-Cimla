@@ -1,8 +1,8 @@
 import 'package:cimla/services/location.dart';
 import 'package:cimla/services/network.dart';
 
-String apiId = 'ec35682393009964bc535b5276164f5c';
-String basicURL = 'https://api.openweathermap.org/data/2.5/weather';
+String apiId = '109a931e40c286b677c79b850dfea4ce';
+String basicURL = 'http://api.openweathermap.org/data/2.5/weather';
 
 class WeatherModel {
   Future<dynamic> getCityLocation(String cityName) async {
